@@ -2,5 +2,5 @@
 Use it like <st:adjunct include="org.kohsuke.stapler.underscore"/>
 -->
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler">
-  <script src="${it.packageUrl}/underscore/underscore{it.manager.debug?'-min':''}.js" type="text/javascript" />
+  <script src="${it.packageUrl}/underscore/underscore${it.manager.debug?'-min':''}.js" type="text/javascript" />
 </j:jelly>
